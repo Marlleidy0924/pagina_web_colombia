@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web informativo sobre Colombia 5.0, diseño de interfaces para videojuegos, inteligencia artificial responsable y ética en la tecnología empresarial.">
+  <title>Colombia 5.0 | UI para videojuegos y tecnologia etica</title>
+
+  <!-- Bootstrap 5 y estilos locales -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="90" tabindex="0">
+  <!-- Encabezado y navegacion -->
+  <header class="site-header fixed-top">
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark" aria-label="Navegacion principal">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home" aria-label="Inicio Colombia 5.0">
+          <span class="brand-mark">5.0</span>
+          <span class="brand-text">Colombia 5.0</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Abrir o cerrar menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+            <li class="nav-item"><a class="nav-link" href="#conferences">Conferencias</a></li>
+            <li class="nav-item"><a class="nav-link" href="#media">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="#glossary">Glosario</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ethics">Etica</a></li>
+            <li class="nav-item"><a class="nav-link" href="#references">Referencias</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seccion principal -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-7">
+            <p class="section-kicker">Proyecto academico de Front-End</p>
+            <h1>Colombia 5.0: diseno de UI para videojuegos e innovacion digital responsable</h1>
+            <p class="hero-lead">
+              Sitio web informativo sobre diseno moderno de interfaces, sistemas de diseno reutilizables,
+              inteligencia artificial y responsabilidad etica en la tecnologia empresarial.
+            </p>
+            <div class="d-flex flex-column flex-sm-row gap-3">
+              <a href="#conferences" class="btn btn-primary btn-lg">Explorar conferencias</a>
+              <a href="#media" class="btn btn-outline-light btn-lg">Ver galeria multimedia</a>
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 mt-lg-0">
+            <div class="hero-panel" aria-label="Resumen del proyecto">
+              <div class="metric">
+                <span>02</span>
+                <p>Charlas academicas</p>
+              </div>
+              <div class="metric">
+                <span>30</span>
+                <p>Terminos del glosario</p>
+              </div>
+              <div class="metric">
+                <span>07</span>
+                <p>Espacios multimedia</p>
+              </div>
+              <div class="metric">
+                <span>100%</span>
+                <p>Diseno adaptable</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion acerca de -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5">
+            <p class="section-kicker">Acerca del sitio</p>
+            <h2>Aprendizaje de desarrollo front-end mediante analisis tecnologico</h2>
+          </div>
+          <div class="col-lg-7">
+            <p class="lead">
+              Este sitio fue creado como proyecto academico inspirado en el evento Colombia 5.0. Su objetivo
+              es organizar informacion tecnica sobre diseno digital, interfaces de usuario, automatizacion e
+              innovacion responsable utilizando HTML5, CSS3, JavaScript y Bootstrap 5.
+            </p>
+            <p>
+              El tema principal es la creacion de interfaces de usuario para videojuegos con Figma. El contenido
+              resalta el diseno escalable, los componentes reutilizables, las estructuras responsivas y la
+              importancia de la etica profesional cuando la tecnologia afecta a las personas, los datos y las
+              decisiones empresariales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion de conferencias -->
+    <section id="conferences" class="section-padding section-soft">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-kicker">Conferencias y talleres</p>
+          <h2>Charlas tecnicas seleccionadas para el proyecto</h2>
+          <p class="section-intro mx-auto">
+            Los siguientes resumenes conectan los temas del evento con habilidades practicas para estudiantes de ingenieria de sistemas.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="info-card h-100">
+              <div class="card-body">
+                <span class="badge text-bg-primary mb-3">Charla asignada</span>
+                <h3>Creacion de UI para videojuegos con Figma</h3>
+                <p><strong>Conferencista:</strong> Presentador del evento analizado en el video.</p>
+                <p><strong>Tema principal:</strong> Diseno eficiente y escalable de interfaces de usuario para videojuegos.</p>
+                <p>
+                  La charla explica como Figma ayuda a construir interfaces flexibles mediante la tecnica de
+                  9 secciones, Auto Layout, marcos, recursos, variantes y componentes reutilizables. El expositor
+                  enfatiza que un sistema de diseno solido mejora la consistencia y ahorra tiempo, porque los cambios
+                  realizados en un componente principal pueden reflejarse en todas sus instancias.
+                </p>
+                <p>
+                  Una idea central es que la inteligencia artificial sera mas util cuando los disenadores entreguen
+                  sistemas de componentes claros, modulares y bien definidos. En ese sentido, el disenador se convierte
+                  en una guia que prepara la estructura que las herramientas futuras podran comprender y reutilizar
+                  de manera responsable.
+                </p>
+                <h4>Palabras clave</h4>
+                <p class="keyword-list">Figma, UI, componentes, Auto Layout, variantes, sistemas de diseno, IA, 9 secciones, marcos, recursos.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-6">
+            <article class="info-card h-100">
+              <div class="card-body">
+                <span class="badge text-bg-success mb-3">Charla seleccionada</span>
+                <h3>IA responsable y tecnologia empresarial</h3>
+                <p><strong>Conferencista:</strong> Reflexion academica seleccionada por el estudiante.</p>
+                <p><strong>Tema principal:</strong> Uso etico de la automatizacion, los datos y la inteligencia artificial en las empresas.</p>
+                <p>
+                  Este tema se centra en como las organizaciones pueden usar la tecnologia sin ignorar su impacto social.
+                  La inteligencia artificial puede mejorar la productividad, personalizar servicios y automatizar tareas
+                  repetitivas, pero tambien exige transparencia, proteccion de datos y supervision humana.
+                </p>
+                <p>
+                  Para los futuros desarrolladores de software, la responsabilidad etica significa disenar sistemas utiles,
+                  seguros, accesibles y justos. Una solucion tecnica no solo debe funcionar correctamente; tambien debe
+                  respetar a las personas, reducir riesgos y apoyar decisiones responsables.
+                </p>
+                <h4>Palabras clave</h4>
+                <p class="keyword-list">Inteligencia artificial, privacidad de datos, automatizacion, accesibilidad, seguridad, impacto social, responsabilidad profesional.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion multimedia -->
+    <section id="media" class="section-padding">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-5">
+          <div>
+            <p class="section-kicker">Galeria multimedia</p>
+            <h2>Siete espacios multimedia adaptables</h2>
+          </div>
+          <p class="section-intro mb-0">
+            Cinco imagenes del evento y dos videos sin audio estan organizados con el sistema de grid de Bootstrap.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-tile photo-tile">
+              <img src="media/conference-speaker-quote.png" alt="Conferencista presentando una frase sobre videojuegos e inteligencia artificial.">
+              <figcaption>
+                <span>Imagen 01</span>
+                <h3>Charla sobre IA y videojuegos</h3>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-tile photo-tile">
+              <img src="media/conference-stage-wide.png" alt="Vista general del escenario de Colombia 5.0.">
+              <figcaption>
+                <span>Imagen 02</span>
+                <h3>Vista general del escenario</h3>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-tile photo-tile">
+              <img src="media/conference-vr-screen.png" alt="Publico observando una pantalla con contenido de realidad virtual.">
+              <figcaption>
+                <span>Imagen 03</span>
+                <h3>Pantalla de tecnologia inmersiva</h3>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-tile photo-tile">
+              <img src="media/conference-speaker-stage.png" alt="Conferencista en el escenario durante el evento tecnologico.">
+              <figcaption>
+                <span>Imagen 04</span>
+                <h3>Sesion con conferencista</h3>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <figure class="media-tile photo-tile">
+              <img src="media/figma-workshop-instructions.jpeg" alt="Diapositiva con instrucciones para acceder y editar un archivo de Figma.">
+              <figcaption>
+                <span>Imagen 05</span>
+                <h3>Instrucciones del taller de Figma</h3>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="media-tile video-tile">
+              <video controls muted playsinline preload="metadata" aria-label="Video del evento Colombia 5.0 sin audio">
+                <source src="https://res.cloudinary.com/dodlhti7d/video/upload/v1781874919/video_de_heidy_1_zxfhqv.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+              </video>
+              <div class="video-caption">
+                <span>Video 01</span>
+                <h3>Video del evento sin audio</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="media-tile video-tile video-wide">
+              <video controls muted playsinline preload="metadata" aria-label="Segundo video del evento Colombia 5.0 sin audio">
+                <source src="https://res.cloudinary.com/dodlhti7d/video/upload/v1781874937/video_de_heidy_2_sy1gmy.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+              </video>
+            </div>
+            <div class="video-caption mt-3">
+              <span>Video 02</span>
+              <h3>Segundo video del evento sin audio</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informacion complementaria con carrusel -->
+    <section id="additional-info" class="section-padding section-dark">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <p class="section-kicker">Informacion complementaria</p>
+            <h2>Por que importan los sistemas de diseno</h2>
+            <p>
+              Los sistemas de diseno organizan decisiones visuales, componentes de interfaz y estados de interaccion.
+              En el desarrollo de videojuegos, esto ayuda a crear pantallas, menus, botones, barras de vida y elementos
+              de respuesta visual consistentes en diferentes dispositivos.
+            </p>
+          </div>
+          <div class="col-lg-7">
+            <div id="infoCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#infoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                <button type="button" data-bs-target="#infoCarousel" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                <button type="button" data-bs-target="#infoCarousel" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-card">
+                    <h3>Escalabilidad</h3>
+                    <p>Los componentes reutilizables permiten que un proyecto crezca sin perder orden visual.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-card">
+                    <h3>Consistencia</h3>
+                    <p>Las variantes facilitan manejar estados como normal, activo y deshabilitado.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-card">
+                    <h3>Apoyo futuro de la IA</h3>
+                    <p>Los sistemas bien estructurados pueden ayudar a herramientas inteligentes a generar propuestas de interfaz mas claras.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#infoCarousel" data-bs-slide="prev" aria-label="Diapositiva anterior">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#infoCarousel" data-bs-slide="next" aria-label="Diapositiva siguiente">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion de glosario -->
+    <section id="glossary" class="section-padding">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-kicker">Glosario</p>
+          <h2>Vocabulario tecnico aprendido durante el evento</h2>
+          <p class="section-intro mx-auto">Treinta terminos tecnicos explicados en espanol de forma breve y clara.</p>
+        </div>
+
+        <div class="table-responsive glossary-table">
+          <table class="table table-hover align-middle">
+            <thead>
+              <tr>
+                <th scope="col">Termino tecnico</th>
+                <th scope="col">Area</th>
+                <th scope="col">Definicion</th>
+              </tr>
+            </thead>
+            <tbody id="glossaryBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion de etica y conclusion -->
+    <section id="ethics" class="section-padding section-soft">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-5">
+            <div class="ethics-card h-100">
+              <p class="section-kicker">Conclusion</p>
+              <h2>Como se implementa la etica en la tecnologia empresarial</h2>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="info-card h-100">
+              <div class="card-body">
+                <p>
+                  La etica en la tecnologia empresarial se implementa disenando sistemas que respeten a las personas,
+                  protejan la informacion y hagan transparentes las decisiones. La inteligencia artificial debe usarse
+                  con supervision humana, objetivos claros y mecanismos que reduzcan sesgos o resultados injustos.
+                </p>
+                <p>
+                  El uso responsable de datos significa recolectar solo lo necesario, proteger la informacion privada
+                  y explicar como los datos apoyan los procesos automatizados. La automatizacion puede mejorar la
+                  eficiencia, pero no debe quitar responsabilidad a los desarrolladores, empresas o tomadores de decisiones.
+                </p>
+                <p>
+                  Como estudiante de ingenieria de sistemas, entiendo que la responsabilidad profesional hace parte
+                  de la calidad del software. Un buen proyecto debe ser funcional, accesible, seguro y consciente de su
+                  impacto social. La tecnologia tiene efectos reales, por eso los desarrolladores deben pensar mas alla
+                  del codigo y considerar a las personas que dependeran de los sistemas que construyen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion de referencias -->
+    <section id="references" class="section-padding">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <p class="section-kicker">Referencias</p>
+            <h2>Recursos utilizados</h2>
+          </div>
+          <div class="col-lg-8">
+            <ul class="reference-list">
+              <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap 5</a></li>
+              <li><a href="https://fonts.google.com/specimen/Inter" target="_blank" rel="noopener">Tipografia Inter de Google Fonts</a></li>
+              <li><a href="https://www.figma.com/" target="_blank" rel="noopener">Plataforma de diseno Figma</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de pagina -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-3 align-items-center">
+        <div class="col-md-6">
+          <h2 class="footer-title">Colombia 5.0</h2>
+          <p class="mb-0">Contacto: student.project@example.com</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">&copy; 2026 Proyecto academico de Front-End. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
